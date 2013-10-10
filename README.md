@@ -6,7 +6,7 @@ Visualisation of sex worker arrests statistical data sets with Bioweb3D software
 [![Arrests for prostitution](http://farm3.staticflickr.com/2879/10194975484_08b5e6b7e4_c.jpg "screen shot")](http://www.bit.ly/arrestmap)
 
 ## 1.) Download U.S.A. prostitution arrest data in two text files:
-1. arrest-data.jason
+1. arrest-dataset.jason
 2. arrest-cluster.jason
 
 Use the "Download ZIP" button on the right to fetch all files in one archive (or click one by one a file name, then the "Raw" button in the frame headline to get it displayed raw in black font only, and then select "save as" from your browser menue). 
@@ -19,7 +19,7 @@ The files contain data of 24 million arrests in 2,040 records categorized by:
 
 ## 2.) Start [BioWeb3D java software](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/)
 
-**2.1) Load the data file into the software** You see a grey mountain of connected data points (arrest figures of the same year of all the different age groups are connected)
+**2.1) Load the dataset file into the software** You see a grey mountain of connected data points (arrest figures of the same year of all the different age groups are connected)
 
 x axis: years from 1981 to 2010
 
