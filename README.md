@@ -31,9 +31,13 @@ z axis: age groups -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -4
 
 y axis: number of arrests from 0 to 159.735 arrests (this max is for males 21-24 years and arrested 1982 for disorderly conduct)
 
-**2.2) Load the arrest-cluster.jason file into the software** With the "select data" drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating surfaces and sets for all age groups and years which are like curves, when the 3D surface cuts the parallel plane slices. In "View" you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colors in wold 2, all age groups in world 3 and years in 4. (Coloring vector startes white followed by red.) In "Settings" you can adjust axis magnification and size of marks. (Adjust window magnification in firefox browser with 'ctrl\_+' and 'ctrl\_-').
+**2.2) Load the arrest-cluster.jason file into the software** With the "select data" drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating surfaces and sets for all age groups and years which are like curves, when the 3D surface cuts the parallel plane slices. 
 
-## Some results
+In "View" you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colors in wold 2, all age groups in world 3 and years in 4. (Coloring vector startes white followed by red.) 
+
+In "Settings" you can adjust axis magnification and size of marks. (Adjust window magnification in firefox browser with 'ctrl\_+' and 'ctrl\_-').
+
+## Some preliminary results
 
 Most arrests are for disorderly conduct. For prostitution mostly females get arrested: 1.9 million females compared to 1 million males arrested in the US 1980-2010.
 
@@ -45,9 +49,9 @@ Arrests for prostitution is very low for minors. Figures or curves go only up af
 
 Collect the data with spreadsheet software e.g. openOffice.org.
 
-Create additional table colums for sorting, grouping and number export. They contain all the brackets, commas and format syntax required for the two JASON files. Btw. text files.csv (comma separated values) can also be used and directly exported form a spreadsheet. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer) available in openOffice text files is an alternative option to generate the correct file format.
+Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2 then the export formula can look like E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],". Btw. text files.csv (comma separated values) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer) available in openOffice text files is an alternative option to generate the needed file format. E.g. to put all lines of figures into brackets, find in each line the beginning i.e. search for ^(.) and replace all with [$1 followed by search for (.)$ and replace with $1], .
 
-Copy the generated data colums from the spreadsheed into the right place in the manually edited JASON text file. There is also an on-line tool jsoneditoronline.org. Scientist can use a pascal script given with the Bioweb3D source code for automated .csv into .jason conversion and file generation.
+Copy the generated data colums from the spreadsheed or text file into the right place in the manually edited JASON text file. There is also this on-line tool [jsoneditoronline.org](http://www.jsoneditoronline.org). For automated .csv into .jason conversion and file generation scientists have also provided a pascal script with the bioWeb3D source code files.
 
 
 Arrest data source: FBI, via [bjs.ojp.usdoj.gov](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
