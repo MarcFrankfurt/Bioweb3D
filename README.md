@@ -49,7 +49,7 @@ Arrests for prostitution is very low for minors. Figures or curves go only up af
 
 Collect the data with spreadsheet software e.g. `openOffice.org`.
 
-Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2, respectively, then the export formula may look like this `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`
+Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2, respectively, then the export formula may look like this `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`.
 Btw. text files.csv (comma separated values format) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer), which is available in openOffice text files, is an alternative option to generate the needed file format. E.g. to include all lines of figures from a file into brackets, find in each line the beginning i.e. search for `^(.)` and replace all found with `[$1` followed by search for `(.)$` and replacement with `$1],`.
 
 Copy the generated data colums from the spreadsheed or processed text file into the right place in the manually edited JASON text file. There is also this on-line tool [jsoneditoronline.org](http://www.jsoneditoronline.org). For automated .csv into .jason conversion and file generation scientists have provided a pascal script with the bioWeb3D source code files.
@@ -58,6 +58,6 @@ Copy the generated data colums from the spreadsheed or processed text file into 
 
 bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [software and data source code](https://github.com/jbogp/bioWeb3D).
 
-Arrest data source: FBI, via [bjs.ojp.usdoj.gov](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
+Arrest data source: FBI via [bjs.ojp.usdoj.gov](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
 More information: [Arrest Mapper Project bit.ly/arrestmap](http://www.bit.ly/arrestmap).
