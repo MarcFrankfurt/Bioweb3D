@@ -35,7 +35,7 @@ y axis: number of arrests from 0 to 159.735 arrests (this max is for males 21-24
 
 In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colors in wold 2, all age groups in world 3 and years in 4. (Coloring vector startes white followed by red.) 
 
-In `Settings` you can adjust axis magnification and size of marks. (Adjust window magnification in firefox browser with `ctrl\_+` and `ctrl\_-`).
+In `Settings` you can adjust axis magnification and size of marks. (Adjust window magnification in firefox browser with `ctrl_+` and `ctrl_-`).
 
 ## Some preliminary results
 
@@ -49,7 +49,8 @@ Arrests for prostitution is very low for minors. Figures or curves go only up af
 
 Collect the data with spreadsheet software e.g. `openOffice.org`.
 
-Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2 then the export formula can look like `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`. Btw. text files.csv (comma separated values) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer) available in openOffice text files is an alternative option to generate the needed file format. E.g. to put all lines of figures into brackets, find in each line the beginning i.e. search for `^(.)` and replace all with `[$1` followed by search for `(.)$` and replace with `$1],`.
+Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2 then the export formula can look like this `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`
+Btw. text files.csv (comma separated values) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer) available in openOffice text files is an alternative option to generate the needed file format. E.g. to put all lines of figures into brackets, find in each line the beginning i.e. search for `^(.)` and replace all with `[$1` followed by search for `(.)$` and replace with `$1],`.
 
 Copy the generated data colums from the spreadsheed or text file into the right place in the manually edited JASON text file. There is also this on-line tool [jsoneditoronline.org](http://www.jsoneditoronline.org). For automated .csv into .jason conversion and file generation scientists have also provided a pascal script with the bioWeb3D source code files.
 
