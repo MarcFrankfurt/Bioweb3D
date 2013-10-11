@@ -1,7 +1,7 @@
 bioWeb3D
 ========
 
-Visualisation of sex worker arrests statistical data sets with Bioweb3D open software tool.
+Visualisation of sex worker arrests statistical data sets with bioWeb3D open software tool.
 
 This novel interactive visual aproach to check sex worker arrest data from the US has been added by Arrest Mapper Project `bit.ly/arrestmap`. One only needs to download two text files with FBI arrest data, start a browser app and then you can display millions of arrest data points for intuitive 3D data reviewing. The open software was developed at European Molecular Biology Laboratory Cambrige (_and is somehow related to this years nobel price for chemistry_).
 
