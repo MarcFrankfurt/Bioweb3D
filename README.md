@@ -3,7 +3,7 @@ bioWeb3D
 
 Visualisation of sex worker arrests statistical data sets with Bioweb3D open software tool.
 
-This novel interactive visual aproach to check sex worker arrest data from the US has been added by Arrest Mapper Project `bit.ly/arrestmap`. One only needs to download two text files with FBI arrest data, start a browser app and then you can display millions of arrest data points for intuitive 3D data reviewing. The open software is developed at European Molecular Biology Laboratory Cambrige and somehow related to this years nobel price for chemistry.
+This novel interactive visual aproach to check sex worker arrest data from the US has been added by Arrest Mapper Project `bit.ly/arrestmap`. One only needs to download two text files with FBI arrest data, start a browser app and then you can display millions of arrest data points for intuitive 3D data reviewing. The open software was developed at European Molecular Biology Laboratory Cambrige (_and is somehow related to this years nobel price for chemistry_).
 
 
 
@@ -21,7 +21,7 @@ The files contain data of 24 million arrests in 2,040 records categorized by:
 - 17 age groups -9 ... 65+
 - 30 years
 
-## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software in this browser window
+## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software in (this) browser window
 
 **2.1) Load the arrest-dataset.jason file into the software** You see a grey mountain of connected data points (arrest figures of the same year of all the different age groups are connected)
 
@@ -41,7 +41,7 @@ In `Settings` you can adjust axis magnification and size of marks. (Adjust windo
 
 Most arrests are for disorderly conduct. For prostitution mostly females get arrested: 1.9 million females compared to 1 million males arrested in the US 1980-2010.
 
-Through the years more and more older women (sex workers) get arrested for prostitution, outnumbering men (possible clients), although there is an outspoken 'end demand' policy in place in the US. 
+Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (possible clients), although there is an outspoken 'end demand' policy in place in the US. 
 
 Arrests for prostitution is very low for minors. Figures or curves go only up after age of maturity with the 18-20 years age group (default color code light green).
 
@@ -49,12 +49,15 @@ Arrests for prostitution is very low for minors. Figures or curves go only up af
 
 Collect the data with spreadsheet software e.g. `openOffice.org`.
 
-Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2 then the export formula can look like this `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`
-Btw. text files.csv (comma separated values) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer) available in openOffice text files is an alternative option to generate the needed file format. E.g. to put all lines of figures into brackets, find in each line the beginning i.e. search for `^(.)` and replace all with `[$1` followed by search for `(.)$` and replace with `$1],`.
+Create additional table colums for sorting, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in A2, B2 and C2, respectively, then the export formula may look like this `E2="["&A2&", "&substitute(B2;",";".")&", "&substitute(C2;",";".")&"],"`
+Btw. text files.csv (comma separated values format) can also be used as input file and directly exported from spreadsheets. Search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer), which is available in openOffice text files, is an alternative option to generate the needed file format. E.g. to include all lines of figures from a file into brackets, find in each line the beginning i.e. search for `^(.)` and replace all found with `[$1` followed by search for `(.)$` and replacement with `$1],`.
 
-Copy the generated data colums from the spreadsheed or text file into the right place in the manually edited JASON text file. There is also this on-line tool [jsoneditoronline.org](http://www.jsoneditoronline.org). For automated .csv into .jason conversion and file generation scientists have also provided a pascal script with the bioWeb3D source code files.
+Copy the generated data colums from the spreadsheed or processed text file into the right place in the manually edited JASON text file. There is also this on-line tool [jsoneditoronline.org](http://www.jsoneditoronline.org). For automated .csv into .jason conversion and file generation scientists have provided a pascal script with the bioWeb3D source code files.
 
+## References and sources
+
+bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [software and data source code](https://github.com/jbogp/bioWeb3D).
 
 Arrest data source: FBI, via [bjs.ojp.usdoj.gov](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
-More information: [Arrest Mapper Project bit.ly/arrestmap](http://www.bit.ly/arrestmap), [open access publication and bioWeb3D user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [bioWeb3D software and data source code](https://github.com/jbogp/bioWeb3D).
+More information: [Arrest Mapper Project bit.ly/arrestmap](http://www.bit.ly/arrestmap).
