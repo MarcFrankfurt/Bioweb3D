@@ -1,4 +1,4 @@
-Bioweb3D
+bioWeb3D
 ========
 
 Visualisation of sex worker arrests statistical data sets with Bioweb3D open software tool.
@@ -21,7 +21,7 @@ The files contain data of 24 million arrests in 2,040 records categorized by:
 - 17 age groups -9 ... 65+
 - 30 years
 
-## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software
+## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software in this browser window
 
 **2.1) Load the arrest-dataset.jason file into the software** You see a grey mountain of connected data points (arrest figures of the same year of all the different age groups are connected)
 
