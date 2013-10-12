@@ -1,9 +1,9 @@
 bioWeb3D
 ========
 
-Visualisation of sex worker arrests statistical data sets with bioWeb3D open software tool.
+Visualisation of arrests statistical data sets with bioWeb3D open software tool.
 
-This novel interactive visual aproach to check sex worker arrest data from the US has been added by Arrest Mapper Project `bit.ly/arrestmap`. One only needs to download two text files with FBI arrest data, start a browser app and then you can display millions of arrest data points for intuitive 3D data reviewing. The open software was developed at European Molecular Biology Laboratory Cambrige (_and is somehow related to this years nobel price for chemistry_).
+This novel interactive visual approach to check sex worker arrest data from the US has been added by Arrest Mapper Project `bit.ly/arrestmap`. One only needs to download two text files with FBI arrest data, start a browser app and then you can display millions of arrest data points for intuitive 3D data reviewing. The open software was developed at European Molecular Biology Laboratory Cambrige (_and its use somehowe inspired by this years nobel price for chemistry_).
 
 
 
@@ -15,7 +15,7 @@ This novel interactive visual aproach to check sex worker arrest data from the U
 
 Use the `Download ZIP` button on the right to fetch all files in one archive (or click one by one a file name, then the `Raw` button in the frame headline to get it displayed raw in black font only, and then select `save as` from your browser menue). 
 
-The files contain data of 24 million arrests in 2,040 records categorized by:
+The files contain adjusted data of 24 million arrests in 2,040 records categorized by:
 - arrests for prostitution or disorderly conduct
 - male/female
 - 17 age groups -9 ... 65+
@@ -23,7 +23,7 @@ The files contain data of 24 million arrests in 2,040 records categorized by:
 
 ## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software in (this) browser window
 
-**2.1) Load the arrest-dataset.jason file into the software** You see a grey mountain of connected data points (arrest figures of the same year of all the different age groups are connected)
+**2.1) Load the arrest-dataset.jason file into the software** You get to see a grey mountain of data points (connected are arrest figures of one same year comprising all different age groups)
 
 x axis: years from 1981 to 2010
 
@@ -31,9 +31,9 @@ z axis: age groups -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -4
 
 y axis: number of arrests from 0 to 159.735 arrests (this max is for males 21-24 years and arrested 1982 for disorderly conduct)
 
-**2.2) Load the arrest-cluster.jason file into the software** With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating surfaces and sets for all age groups and years which are like curves, when the 3D surface cuts the parallel plane slices. 
+**2.2) Load the arrest-cluster.jason file into the software** With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating 3D surfaces and sets for all age groups and years which are like curves, when the surface cuts parallel plane slices. 
 
-In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colors in wold 2, all age groups in world 3 and years in 4. (Coloring vector startes white followed by red.) 
+In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colors in wold 2, all age groups in world 3 and years in 4. (Coloring vector startes white followed by red for age groups and years respectively) 
 
 In `Settings` you can adjust axis magnification and size of marks. (Adjust window magnification in firefox browser with `ctrl_+` and `ctrl_-`).
 
@@ -41,11 +41,11 @@ In `Settings` you can adjust axis magnification and size of marks. (Adjust windo
 
 Most arrests are for disorderly conduct. For prostitution mostly females get arrested: 1.9 million females compared to 1 million males arrested in the US 1980-2010.
 
-Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (possible clients), although there is an outspoken 'end demand' policy in place in the US. 
+Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (possible clients), although there is an outspoken 'end demand' policy in place in the US. Although sex workers are ascribed as victims in the media driven public discourse, we found, that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data and arrest costs.
 
-Arrests for prostitution is very low for minors. Figures or curves go only up after age of maturity with the 18-20 years age group (default color code light green).
+Arrests for prostitution is very low for minors. Figures or curves go only up after age of maturity with the 18-20 years age group (default color code light green; younger than <21 years are 13.38% of all female prostitution arrests, <18 1.16%, <16 0.28% and [ounger than <14 years are only 0.02%](http://bit.ly/19xHowd)).
 
-## How were the data input files created:
+## How the data input files arec:
 
 Collect the data with spreadsheet software e.g. `openOffice.org`.
 
