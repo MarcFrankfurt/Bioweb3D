@@ -47,18 +47,18 @@ Arrests for prostitution is very low for minors. Figures or curves go only up af
 
 ## How the input data files are created
 
-Collect the data with spreadsheet software e.g. (openOffice.org)[http://en.wikipedia.org/wiki/OpenOffice.org] or (Gnumeric)[http://en.wikipedia.org/wiki/Gnumeric].
+Collect the data with spreadsheet software e.g. [openOffice.org](http://en.wikipedia.org/wiki/OpenOffice.org) or [Gnumeric](http://en.wikipedia.org/wiki/Gnumeric).
 
-Create additional table columns for sorting, adjustment, grouping and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point, adjustment factors and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in column cells A2, B2 and C2, respectively, then the export formula may look like this `E2="["&A2*3&", "&substitute(B2/400;",";".")&", "&substitute((C2-1980)*3;",";".")&"],"`.
+Create additional table columns for adjustment, sorting, clustering and number export. The export column contains text formulas to add all the necessary brackets, spaces, comma/point, adjustment factors and format syntax required for the two JASON files e.g. when age, arrests and year figures are given in column cells A2, B2 and C2, respectively, then the export formula may look like this `E2="["&A2*3&", "&substitute(B2/400;",";".")&", "&substitute((C2-1980)*3;",";".")&"],"`.
 
-Alternatively text files.csv (comma separated values format) can also be used as input files for bioWeb3D and directly exported from spreadsheet software. Advanced search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer), which is available in openOffice text files, is an alternative option to generate the needed JASON file format. E.g. to individually include all lines from a long file list into brackets, find each line start by searching for `^(.)` (a character at the beginning) and replace all found with `[$1` (the found expression $1 and the bracket), then search for line endings `(.)$` and replacement all at once with `$1],`.
+Alternatively text files.csv (comma separated values format) can also be used as input files for bioWeb3D and directly exported from spreadsheet software. Use advanced search and replace with [regular expression](http://wiki.openoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer), which is available in openOffice text files, as an alternative option to generate the needed JASON file format. E.g. to individually include all lines from a long file list into brackets, find each line start by searching for `^(.)` (a character at the beginning) and replace all found with `[$1` (the found expression per line $1 plus the bracket), then search for line endings `(.)$` and replacement all at once with `$1],`.
 
-Copy the generated data columns from the spreadsheet or processed text file into the right place in the manually edited JASON text file. This on-line parsing tool [jsonEditoronline.org](http://www.jsoneditoronline.org) can help to find errors. For frequent .csv into .jason conversion and file generation scientists have provided a pascal script for automation, with is available at the bioWeb3D source code files.
+Copy the generated data columns from the spreadsheet or processed text file into the right place in the manually edited JASON text file. This on-line parsing tool [jsonEditoronline.org](http://www.jsoneditoronline.org) can help to find editing errors. For frequent .csv into .jason conversion and file generation scientists have provided a pascal script for automation, with is available at the bioWeb3D source code files on github.
 
 ## References and sources
 
 bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [software, examples from biology and data source code](https://github.com/jbogp/bioWeb3D).
 
-Arrest data source: FBI via [usdoj.gov](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
+Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
 More information: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
