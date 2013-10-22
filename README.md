@@ -31,15 +31,17 @@ z axis: age groups -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -4
 
 y axis: number of arrests from 0 to 159.735 arrests (the maximum is for males 21-24 years and arrested 1982 for disorderly conduct)
 
-Connected are arrest figures of one same year comprising all different age groups. The lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line
+Connected are arrest figures of one same year comprising all different age groups. 
+
+Lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line
 
         // 	"chain" : true,
 
 **2.2) Load the arrest-cluster.jason file into the software** With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating 3D surfaces and sets for all age groups and years which are like curves, when the surface cuts parallel plane slices. 
 
-In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with 2 lighter colours in world 2, all age groups in world 3 and years in 4. (Colouring vector starts white followed by red for age groups and years respectively) 
+In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with two lighter colours in world 2, all age groups in world 3 and years in 4. (Colouring vector starts "white" followed by "red" for age groups and years respectively) 
 
-In `Settings` you can adjust axis magnification and size of marks. (Adjust window magnification in Firefox browser with `ctrl_+` and `ctrl_-`).
+In `Settings` you can adjust axis magnification (coefficients) and size and transparency of marks. (Adjust window magnification in Firefox browser with `ctrl_+` and `ctrl_-`).
 
 ## Some preliminary results
 
@@ -47,7 +49,7 @@ Most arrests are for disorderly conduct. For prostitution mostly females get arr
 
 Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (possible clients), although there is an outspoken 'end demand' policy in place in the US. Although sex workers are ascribed as victims in the media driven public discourse, we found, that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data and arrest costs.
 
-Arrests for prostitution is very low for minors. Figures or curves go only up after age of maturity with the 18-20 years age group (default color code light green; younger than 21 years are 13.38% of all female prostitution arrests, <18 1.16%, <16 0.28% and [younger than 14 years are only 0.02%](http://bit.ly/19xHowd)).
+Arrests for prostitution is very low for minors. Figures or curves go only up after age of maturity with the 18-20 years age group (default color code light green; younger than 21 years are 13.38% of all female prostitution arrests, <18 are 1.16%, <16 0.28% and [younger than 14 years are only 0.02%](http://bit.ly/19xHowd)).
 
 ## How the input data files are created
 
@@ -63,6 +65,6 @@ Copy the generated data columns from the spreadsheet or processed text file into
 
 bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [software, examples from biology and data source code](https://github.com/jbogp/bioWeb3D).
 
-Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.ojp.usdoj.gov/index.cfm?ty=datool) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
+Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
 More information: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
