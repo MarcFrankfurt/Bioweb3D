@@ -23,13 +23,17 @@ The files contain adjusted data of 24 million arrests in 2,040 records categoriz
 
 ## 2.) Start [bioWeb3D](http://www.ebi.ac.uk/~jbpettit/bioWeb3D/) java software in (this) browser window
 
-**2.1) Load the arrest-dataset.jason file into the software** You get to see a grey mountain of data points (connected are arrest figures of one same year comprising all different age groups)
+**2.1) Load the arrest-dataset.jason file into the software** You get to see a grey mountain of data points 
 
 x axis: years from 1981 to 2010
 
 z axis: age groups -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -49, 54, -59, -64 and 65+
 
 y axis: number of arrests from 0 to 159.735 arrests (the maximum is for males 21-24 years and arrested 1982 for disorderly conduct)
+
+Connected are arrest figures of one same year comprising all different age groups. The lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line
+
+        // 	"chain" : true,
 
 **2.2) Load the arrest-cluster.jason file into the software** With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution or disorderly conduct), which are equivalent to 4 penetrating 3D surfaces and sets for all age groups and years which are like curves, when the surface cuts parallel plane slices. 
 
