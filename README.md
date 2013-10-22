@@ -25,13 +25,13 @@ The files contain adjusted data of 24 million arrests in 2,040 records categoriz
 
 **2.1) Load the arrest-dataset.jason file into the software** 
 
-You get to see a grey mountain of data points in 3D years-age-arrests space:
+You get to see a grey mountain of data points in 3D year-age-arrests space:
 
-x axis: years from 1981 to 2010
+x axis: year from 1981 to 2010
 
-z axis: age groups -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -49, 54, -59, -64 and 65+
+z axis: age group -9, -12, -14, -15, -16, -17, -20, -24, -29, -34, -39, -44, -49, 54, -59, -64 and 65+
 
-y axis: number of arrests from 0 to 159.735 arrests (the maximum is for males 21-24 years and arrested 1982 for disorderly conduct)
+y axis: number of arrests from 0 to 159.735 arrests (this maximum is for males 21-24 years arrested 1982 for disorderly conduct)
 
 Connected are arrest figures of one same year comprising all different age groups. 
 
