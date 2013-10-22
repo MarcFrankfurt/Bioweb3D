@@ -41,7 +41,7 @@ Lines can be switched off by changing the chain variable's bolean value from "tr
 
 **2.2) Load the arrest-cluster.jason file into the software** 
 
-With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution and disorderly conduct), which are equivalent to 4 penetrating 3D surfaces and sets for all age groups and years which show up like curves, when the arrest surfaces cut parallel plane slices of constant year or age. 
+With the `select data` drop down menue you can select and deselect clusters and assign colors. There are sets for the 4 main arrest groups (female/male for prostitution and disorderly conduct), which are equivalent to 4 penetrating 3D surfaces and there are sets for all age groups and all years which show up like curves, when the arrest surfaces cut parallel plane slices of constant year or age. 
 
 In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with two lighter colours in world 2, all age groups in world 3 and years in 4. (Colouring vector starts "white" followed by "red" for age groups and years respectively) 
 
@@ -51,7 +51,7 @@ In `Settings` you can adjust axis magnification (coefficients) and size and tran
 
 Most arrests are for disorderly conduct. For prostitution mostly females get arrested: 1.9 million females compared to 1 million males arrested in the US 1980-2010.
 
-Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (clients or possible male and trans* sex wokrers), although there is an outspoken 'end demand' policy in place in the US. Although sex workers are hegemonistically categorized as victims in the media driven public discourse, we found, that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data and arrest costs.
+Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (clients or possible male and trans* sex workers), although there is an outspoken 'end demand' policy in place in the US. Although sex workers are hegemonistically categorized as victims in the media driven public discourse, we found, that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data and arrest costs.
 
 Regarding so called "child prostitution" the anti-prostitution media propaganda can not be substanciated. Contrary to public belief prostitution of minors is low as data for prostitution arrests from the very many sting operations reveal. Figures or curves only raise after age of maturity with the 18-20 years age group (default color code light green. Younger than 21 years are 13.38% of all female prostitution arrests, <18 years are 1.16%, <16 are 0.28% and [younger than 14 years (child) are only 0.02%](http://bit.ly/19xHowd)).
 
