@@ -45,7 +45,7 @@ With the `select data` drop down menue you can select and deselect clusters and 
 
 In `View` you can mount different coordinate systems side by side and rotate them simultaneously. One handy setting for data interpretation is to have only arrests for prostitution male/female selected in blue/red in world 1, disorderly conduct with two lighter colours in world 2, all age groups in world 3 and years in 4. (Colouring vector starts "white" followed by "red" for age groups and years respectively) 
 
-In `Settings` you can adjust axis magnification (coefficients) and size and transparency of marks. (Adjust window magnification in Firefox browser with `ctrl_+` and `ctrl_-`).
+In `Settings` you can adjust axis magnification (coefficients) and size and transparency of marks. Zoom in and out with mouse wheel. (Adjust window magnification in Firefox browser with `ctrl_+` and `ctrl_-`).
 
 ## Some preliminary findings
 
