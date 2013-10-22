@@ -7,7 +7,7 @@ This novel interactive visual approach to recheck sex worker arrest data from th
 
 
 
-[![Arrests for prostitution](http://farm3.staticflickr.com/2879/10194975484_08b5e6b7e4_c.jpg "screen shot")](http://www.bit.ly/arrestmap)
+[![Arrests for prostitution](http://farm6.staticflickr.com/5486/10420986775_e22620dac2_o.jpg "screen shot")](http://www.bit.ly/arrestmap)
 
 ## 1.) Download U.S.A. prostitution arrest data in two text files:
 1. arrest-dataset.jason
