@@ -38,6 +38,8 @@ Connected are arrest figures of one same year comprising all different age group
 Lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line
 
         // 	"chain" : true,
+        
+(The axes names in the display window can be overwritten with six custom labels in each direction. Double click to close input field.)
 
 **2.2) Load the arrest-cluster.jason file into the software** 
 
