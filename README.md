@@ -67,7 +67,7 @@ Copy the generated data columns from the spreadsheet or processed text file into
 
 ## References and sources
 
-bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [software, examples from biology and data source code](https://github.com/jbogp/bioWeb3D).
+bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [examples from biology and software source code](https://github.com/jbogp/bioWeb3D).
 
 Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
