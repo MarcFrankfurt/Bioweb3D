@@ -39,7 +39,7 @@ Lines can be switched off by changing the chain variable's bolean value from "tr
 
         // 	"chain" : true,
         
-(The axes names in the display window can be overwritten with six custom labels in each direction. Double click to close input field.)
+(The axes names in the display window can be overwritten with custom labels in each direction e.g. the values in that direction 1981 2010, 9 65, 0 160,000. Double click to close input field.)
 
 **2.2) Load the arrest-cluster.jason file into the software** 
 
