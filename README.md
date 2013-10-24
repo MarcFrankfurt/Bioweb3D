@@ -75,7 +75,7 @@ Copy the generated data columns from the spreadsheet or processed text file into
 
 bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [examples from biology and software source code](https://github.com/jbogp/bioWeb3D).
 
-Our [How-to video](http://www.youtube.com/watch?v=y1yviO6R7m4) (6 min).
+Our [how-to video](http://www.youtube.com/watch?v=y1yviO6R7m4) (6 min).
 
 Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
