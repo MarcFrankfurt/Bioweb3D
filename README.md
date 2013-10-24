@@ -9,6 +9,8 @@ This novel interactive visual approach to recheck sex worker arrest data from th
 
 [![Arrests for prostitution](http://farm6.staticflickr.com/5486/10420986775_e22620dac2_o.jpg "screen shot")](http://www.bit.ly/arrestmap)
 
+Watch this how-to video http://www.youtube.com/watch?v=y1yviO6R7m4 (6 min).
+
 ## 1.) Download U.S.A. prostitution arrest data in two text files:
 1. arrest-dataset.jason
 2. arrest-cluster.jason
@@ -35,11 +37,11 @@ y axis: number of arrests from 0 to 159.735 arrests (this maximum is for males 2
 
 Connected are arrest figures of one same year comprising all different age groups. 
 
-Lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line
+(Lines can be switched off by changing the chain variable's bolean value from "true" into "false" in this JASON text file. Since that is the default one can delete the full code line or better switch it temporarily off (comment off) by inserting the comment tag `//` at the beginning of the chain code line.)
 
         // 	"chain" : true,
         
-(The axes names in the display window can be overwritten with custom labels in each direction e.g. the values in that direction 1981 2010, 9 65, 0 160,000. Double click to close input field.)
+(The axes names in the display window can be overwritten with custom labels in each direction e.g. the values in that direction 1981 - 2010, 9 - 65, 0 - 160,000. Double click to close input field.)
 
 **2.2) Load the arrest-cluster.jason file into the software** 
 
@@ -55,9 +57,9 @@ Zoom in and out with mouse wheel or two fingers. Maximum zoom is when the center
 
 Most arrests are for disorderly conduct. For prostitution mostly females get arrested: 1.9 million females compared to 1 million males arrested in the US 1980-2010.
 
-Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (clients or possible male and trans* sex workers), although there is an outspoken 'end demand' policy in place in the US. Although sex workers are hegemonistically categorized as victims in the media driven public discourse, we found, that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data and arrest costs.
+Through the years more and more older women (sex workers of more age groups) have been arrested for prostitution, outnumbering men (clients or possible male and trans* sex workers), although there is an outspoken 'end demand' policy in place in the US. Counterfactual and hegemonistically sex workers are categorized as victims in the media driven public discourse, but we found that females are targeted number one by police arrests on prostitution. On `bit.ly/arrestmap` we provide maps with geocoded data, costs of arrests, more analysis and raw data.
 
-Regarding so called "child prostitution" the anti-prostitution media propaganda can not be substanciated. Contrary to public belief prostitution of minors is low as data for prostitution arrests from the very many sting operations reveal. Figures or curves only raise after age of maturity with the 18-20 years age group (default color code light green. Younger than 21 years are 13.38% of all female prostitution arrests, <18 years are 1.16%, <16 are 0.28% and [younger than 14 years (child) are only 0.02%](http://bit.ly/19xHowd)).
+Regarding so called "child prostitution" the anti-prostitution media propaganda can not be substanciated with FBI data. Contrary to public belief, prostitution of minors is low as data for prostitution arrests from the very many sting operations reveal. Figures or curves only raise after age of maturity with the 18-20 years age group (default color code light green). Younger than 21 years are 13.38% of all female prostitution arrests, < 18 years are 1.16%, < 16 are 0.28% and [younger than 14 years (child) are only 0.02%](http://bit.ly/19xHowd).
 
 ## How the input data files are created
 
@@ -73,6 +75,9 @@ Copy the generated data columns from the spreadsheet or processed text file into
 
 bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/pubmed/23758781) and [examples from biology and software source code](https://github.com/jbogp/bioWeb3D).
 
+Our [How-to video](http://www.youtube.com/watch?v=y1yviO6R7m4) (6 min).
+
 Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
+
 
 More information and home page: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
