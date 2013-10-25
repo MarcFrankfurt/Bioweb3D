@@ -77,7 +77,7 @@ bioWeb3D: [open access publication and user manual](http://www.ncbi.nlm.nih.gov/
 
 Our [how-to video](http://www.youtube.com/watch?v=y1yviO6R7m4) (6 min).
 
-Arrest data source: FBI via [usdoj.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
+Arrest data source: FBI via [bjs.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
 
 More information and home page: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
