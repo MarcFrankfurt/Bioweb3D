@@ -1,5 +1,5 @@
 { "dataset" : {
-	"name" : "us arrests all 1980-2010 (ordered chain; normed)",
+	"name" : "us arrests all 1980-2010 (ordered chain; adjusted)",
 	"chain" : true,
 	"points" : [
 		[0, 13.5, 0.0075],
