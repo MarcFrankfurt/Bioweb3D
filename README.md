@@ -79,5 +79,7 @@ Our [how-to video](http://www.youtube.com/watch?v=y1yviO6R7m4) (6 min).
 
 Arrest data source: FBI via [bjs.gov data tool](http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm) and [PoliceProstitutionandPolitics.com](http://www.PoliceProstitutionandPolitics.com).
 
+Find or animate [all or individual values of the same data set](https://docs.google.com/spreadsheet/ccc?key=0AhBymvNPNdmXdDE0Y09rRElwUVhhU1ByYnQzclpIZGc&output=html&gid=10).
 
-More information and home page: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
+
+More information and our home page: [Arrest Mapper Project: bit.ly/arrestmap](http://www.bit.ly/arrestmap).
